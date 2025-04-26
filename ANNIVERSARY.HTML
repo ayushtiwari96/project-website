@@ -1,0 +1,201 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>
+    <audio controls autoplay>
+    <audio id="bg-music">
+    <source src="D:\giftanniversary\MUSIC.mp3"></title>
+    </audio> 
+   <title>Anniversary Surprise</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Quicksand', sans-serif;
+      background: linear-gradient(120deg, #ff9a9e, #fad0c4);
+      overflow-x: hidden;
+      color: #fff;
+      position: relative;
+    }
+    h1 {
+      font-family: 'Great Vibes', cursive;
+      font-size: 3em;
+      margin: 20px;
+      text-align: center;
+      color: #fff;
+      animation: glow 2s infinite alternate;
+    }
+    @keyframes glow {
+      from { text-shadow: 0 0 10px #fff; }
+      to { text-shadow: 0 0 20px #ff6ec7, 0 0 30px #ff6ec7; }
+    }
+    .message {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background: rgba(255,255,255,0.1);
+      border-radius: 20px;
+      text-align: justify;
+      font-size: 1.2em;
+      backdrop-filter: blur(8px);
+      transition: all 0.3s ease-in-out;
+    }
+    .message:hover {
+      transform: scale(1.02);
+      background: rgba(255,255,255,0.2);
+      box-shadow: 0 0 20px rgba(255,255,255,0.3);
+    }
+    .surprise-box {
+      text-align: center;
+      margin: 30px;
+      padding: 20px;
+      border-radius: 15px;
+      background: #ffffff20;
+      backdrop-filter: blur(10px);
+      font-size: 1.4em;
+      transition: transform 0.3s ease-in-out;
+    }
+    .surprise-box:hover {
+      transform: rotate(-1deg) scale(1.05);
+      background: #ffffff40;
+    }
+    .slideshow {
+      max-width: 600px;
+      margin: 20px auto;
+      position: relative;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+    .slideshow img {
+      width: 100%;
+      display: none;
+      animation: zoom 6s ease-in-out infinite;
+    }
+    .slideshow img.active {
+      display: block;
+    }
+    @keyframes zoom {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+    .hearts-container {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      pointer-events: none;
+      z-index: 999;
+    }
+    .heart {
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background: #ff69b4;
+      transform: rotate(45deg);
+      animation: float 8s linear infinite, pulse 2s infinite;
+      opacity: 0.7;
+    }
+    .heart::before,
+    .heart::after {
+      content: '';
+      position: absolute;
+      width: 20px;
+      height: 20px;
+      background: #ff69b4;
+      border-radius: 50%;
+    }
+    .heart::before { top: -10px; left: 0; }
+    .heart::after { top: 0; left: -10px; }
+    @keyframes float {
+      0% { transform: translateY(0) rotate(45deg); }
+      100% { transform: translateY(-100vh) rotate(45deg); }
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1) rotate(45deg); }
+      50% { transform: scale(1.3) rotate(45deg); }
+    }
+    .tap-heart {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 60px;
+      height: 60px;
+      background: #ff4081;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 0 20px #ff4081;
+      cursor: pointer;
+      animation: beat 2s infinite;
+    }
+    .tap-heart span {
+      font-size: 2em;
+    }
+    @keyframes beat {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.2); }
+    }
+  </style>
+</head>
+<body>
+  <h1>Happy 2nd Anniversary!</h1>
+  <div class="message">
+    Dear Daa and Bhabhi,<br><br>
+    Congratulations on reaching this beautiful milestone of two years of marriage! It feels like just yesterday when you both tied the knot, and now here you are — a power couple who continues to inspire everyone around with love, laughter, and togetherness. Your journey has been filled with memories that sparkle like stars and moments that glow like the brightest moon. From silly fights over गाड़ी सिखने जा  to deep conversations under the stars, every bit of your story is beautiful and unique.<br><br>
+    Daa, you are the calm to every storm, and bhabhi, you are the light in every dark tunnel. Together, you make the most amazing team — like chai and biscuit, like movies and popcorn, like Instagram and filters! Your bond reminds us that real love isn't just about grand gestures, but about the small, everyday moments shared with smiles and understanding. Whether it’s dancing together in the kitchen or binging series late at night, you both turn ordinary moments into something magical.<br><br>
+    Two years may sound short, but within these 730 days, you’ve created a world full of respect, joy, compromise, care, and most importantly — endless love. And let's not forget, the secret recipe to your happy marriage must be a lot of food, Bhabhi’s shopping sprees, and Daa silently agreeing to everything with a smile!<br><br>
+    You both are not just a couple — you're an emotion, a celebration, a comedy show when you’re pulling each other’s legs, and a romantic movie when you gaze into each other’s eyes. Your love story gives hope to singles out there and makes the committed ones jealous!<br><br>
+    On this special day, may your love keep growing, may you fight only over where to eat, may you always remember why you fell in love, and may you keep annoying each other in the cutest ways possible! Here's to more late-night snacks, spontaneous road trips, mutual Netflix betrayals, and endless laughter.<br><br>
+    Happy Anniversary once again! You're not just made for each other — you're made of love, laughter, and lots of spicy jokes! Stay blessed, stay crazy, and keep setting #CoupleGoals for all of us.<br><br>
+    With loads of love and good wishes,<br>
+    [AYUSH TIWARI]
+  </div>  <div class="surprise-box" onmouseover="showSurprise(this)" onmouseout="hideSurprise(this)">
+    a surprise for healthy love life!
+    <div class="hidden" style="display:none; font-style:italic; margin-top:10px;">Daa's new mantra: जब जब लड़ाई हो बस ये बोल देना  Yes Baby, you're always right! SAME FOR BHABHI TOO</div>
+  </div>  <div class="slideshow">
+    <img src="photo1.jpg" class="active">
+    <img src="photo2.jpg">
+    <img src="photo3.jpg">
+  </div>  <div class="hearts-container" id="hearts"></div>  <div class="tap-heart" onclick="playMusic()">
+    <span>❤</span>
+  </div>  
+  <script>
+    // slideshow
+    const slides = document.querySelectorAll('.slideshow img');
+    let index = 0;
+    setInterval(() => {
+      slides[index].classList.remove('active');
+      index = (index + 1) % slides.length;
+      slides[index].classList.add('active');
+    }, 4000);
+
+    // hearts
+    const heartsContainer = document.getElementById('hearts');
+    function createHeart() {
+      const heart = document.createElement('div');
+      heart.className = 'heart';
+      heart.style.left = Math.random() * 100 + 'vw';
+      heart.style.top = Math.random() * 100 + 'vh';
+      heart.style.animationDuration = (Math.random() * 3 + 5) + 's';
+      heartsContainer.appendChild(heart);
+      setTimeout(() => heart.remove(), 8000);
+    }
+    setInterval(createHeart, 200);
+
+    // hover surprise
+    function showSurprise(el) {
+      el.querySelector('.hidden').style.display = 'block';
+    }
+    function hideSurprise(el) {
+      el.querySelector('.hidden').style.display = 'none';
+    }
+
+    // tap heart to play music
+    function playMusic() {
+      const music = document.getElementById('bg-music');
+      music.play();
+    }
+  </script></body>
+</html>
